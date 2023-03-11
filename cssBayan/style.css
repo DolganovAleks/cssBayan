@@ -1,0 +1,100 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/*Ширина 50% для удобства просмотра  */
+img {
+    max-width: 50%;
+}
+/* цвет для некативной ссылки черный:*/
+a {
+    color: black;
+}
+
+/* настройки для блока №1 из 5*/
+.img1_div {
+    display: none;
+}
+
+a.img1_link:focus {
+    color: blue;
+}
+
+a.img1_link:hover+div {
+    display: block;
+
+}
+
+a.img1_link:focus+div {
+    display: block;
+
+}
+
+/* настройки для блока №2 из 5*/
+.img2_div {
+    display: none;
+}
+
+a.img2_link:focus {
+    color: blue;
+}
+
+a.img2_link:hover+div {
+    display: block;
+}
+
+a.img2_link:focus+div {
+    display: block;
+}
+
+/* настройки для блока №3 из 5*/
+.img3_div {
+    display: none;
+}
+
+a.img3_link:focus {
+    color: blue;
+}
+
+a.img3_link:hover+div {
+    display: block;
+}
+
+a.img3_link:focus+div {
+    display: block;
+}
+
+/* настройки для блока №4 из 5*/
+.img4_div {
+    display: none;
+}
+
+a.img4_link:focus {
+    color: blue;
+}
+
+a.img4_link:hover+div {
+    display: block;
+}
+
+a.img4_link:focus+div {
+    display: block;
+}
+
+/* настройки для блока №5 из 5*/
+.img5_div {
+    display: none;
+}
+
+a.img5_link:focus {
+    color: blue;
+}
+
+a.img5_link:hover+div {
+    display: block;
+}
+
+a.img5_link:focus+div {
+    display: block;
+}
